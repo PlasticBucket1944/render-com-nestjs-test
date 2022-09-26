@@ -1,5 +1,6 @@
 module.exports = {
-  type: process.env.DB_TYPE,
+  // type: process.env.DB_TYPE,
+  type: 'postgres',
   host: process.env.DB_HOST,
   port: process.env.DB_PORT,
   username: process.env.DB_USERNAME,
